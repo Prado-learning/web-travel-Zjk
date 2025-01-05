@@ -1,0 +1,162 @@
+/* 清除自带样式开始 */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 清除自带样式结束 */
+/* logo部位样式开始 */
+.logo {
+  height: 100px;
+  display: flex;
+  flex: 1;
+}
+.logo h2{
+  line-height: 100px;
+}
+.logo img{
+  width: 150px;
+  height: 100px;
+}
+/* logo部位样式结束 */
+
+/*导航栏部位样式开始  */
+.nav{
+height: 50px;
+line-height: 50px;
+background-color: #47484C;
+
+}
+.nav ul{
+  display: flex;
+  justify-content: space-around;
+
+}
+.nav ul a{
+  color: aliceblue;
+  text-decoration: none;
+}
+/*导航栏部位样式结束  */
+
+
+/*首页背景图样式开始*/
+.photo img{
+width: 100%;
+height: 600px;
+}
+/*首页背景图样式结束*/
+
+/*张家口介绍部分开始*/
+.precis{
+  margin-top: 40px;
+  width: 100%;
+}
+.precis h1{
+  text-align: center;
+  
+}
+.precis-t{
+  margin: 0 auto;
+  width: 200px;
+  border-bottom: 5px solid black;
+  padding-bottom: 20px;
+}
+.precis-b{
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  flex: 1;
+  margin: 40px 100px;
+}
+.precis-b .precis-l{
+  line-height: 30px;
+  text-indent: 2em;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.precis-b .precis-r{
+  width:800px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+ 
+}
+.precis-r video{
+  width: 800px;
+  height: 400px;
+  margin-left: 20px;
+  
+}
+/*张家口介绍部分结束*/
+
+/*联系我们*/
+/* 横线 */
+.view-t
+{
+  margin: 0 auto;
+  width: 160px;
+  border-bottom: 5px solid black;
+  padding-bottom: 20px;
+}
+
+
+.view-b{
+  height: 300px;
+  /* height: 900px; */
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.view-b-l{
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  gap:20px;
+
+
+} 
+.view-b img{
+  flex:1;
+  max-width: 100%;
+  width: 350px;
+  height: 200px;
+}
+
+.view-r
+{
+  flex:1;
+  padding: 0 10px;
+  line-height: 30px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.view-r-1{
+  
+  margin-top: 20px;
+}
+
+.view-r-b{
+  
+  margin-top: 20px;
+}
+.view-r-b-l{
+ 
+  margin-top: 20px;
+}
+
+
+/*页脚开始*/
+.foot{
+  height: 45px;
+  background-color: #47484C;
+
+}
+.foot h3{
+  color: aliceblue;
+  text-align: center;
+  line-height: 45px;
+}
+/*页脚结束*/

@@ -1,0 +1,22 @@
+.contant{
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.contant h1,h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contant h3{
+  font-size: 14px;
+  font-weight: 100;
+}
+.contant input{
+  width: 800px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 800px;
+  height: 200px;
+}

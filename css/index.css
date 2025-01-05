@@ -1,0 +1,126 @@
+/* 清除自带样式开始 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* 清除自带样式结束 */
+  /* logo部位样式开始 */
+  .logo {
+    height: 100px;
+    display: flex;
+    flex: 1;
+  }
+  .logo h2{
+    line-height: 100px;
+  }
+  .logo img{
+    width: 150px;
+    height: 100px;
+  }
+  /* logo部位样式结束 */
+  /*导航栏部位样式开始  */
+  .nav{
+  height: 50px;
+  line-height: 50px;
+  background-color: #47484C;
+  
+  }
+  .nav ul{
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .nav ul a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  /*导航栏部位样式结束  */
+  /*首页背景图样式开始*/
+  .photo img{
+  width: 100%;
+  height: 600px;
+  }
+  /*首页背景图样式结束*/
+
+  /*简介部分开始*/
+  .precis{
+    margin-top: 40px;
+    width: 100%;
+  }
+  .precis h1{
+    text-align: center;
+    
+  }
+  .precis-t,.view-t{
+    margin: 0 auto;
+    width: 160px;
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+  }
+  .precis-b{
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    flex: 1;
+    margin: 40px 100px;
+  }
+  .precis-b .precis-l{
+    line-height: 35px;
+  }
+  .precis-b .precis-r{
+    width:800px;
+   
+  }
+  .precis-r video{
+    width: 800px;
+    margin-left: 40px;
+    
+  }
+ 
+  /*风景介绍开始*/
+  .view-b{
+    height: 1000px;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 80px;
+  }
+  .view-b img{
+    width: 350px;
+    height: 200px;
+  }
+  .box-b{
+    width: 350px;
+    height: 100px;
+    /* padding: 10px; */
+   
+  }
+  .box-b h3{
+    margin: 10px 10px;
+  }
+  .box{
+    margin: 0 20px;
+    background-color: gainsboro;
+  }
+  .box-p{
+    margin: 10px;
+    line-height: 25px;
+  }
+  .box-s{
+    margin-top: 40px;
+  }
+  
+  /*页脚开始*/
+  .foot{
+    height: 45px;
+    background-color: #47484C;
+  
+  }
+  .foot h3{
+    color: aliceblue;
+    text-align: center;
+    line-height: 45px;
+  }
+  /*页脚结束*/

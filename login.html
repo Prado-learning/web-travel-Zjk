@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- 适应窗口大小，确保视觉效果 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>张家口旅行介绍系统</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/zhuye.css">
+    <style type="text/css">
+        body {
+            background-color: #F9FAF9;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- href:  链接到文件；链接到文件的某个位置ID标识；链接到URL；链接到邮件；链接到图片 -->
+    <!-- 文字超链接 图片超链接 -->
+    <!-- 体会 URL链接是浏览器得到一份HTML文件，不能局部刷新 -->
+    <div class="main">
+        <!-- 放logo部位 -->
+         <div class="logo">
+          <img src="img/logo.png" alt="这里为张家口旅游logo">
+          <h2>冬奥之城，塞外山城</h2>
+         </div>
+<!-- 导航栏 -->
+    <div class="nav">
+        <ul>
+            <li><a href="first.html">首页</a></li>
+            <li><a href="tourism.html">景点介绍</a></li>
+            <li><a href="food.html">美食介绍</a></li>
+            <li><a href="login.html">登录</a></li>
+            <!-- <li><a href="mytt3.html#newdirect" target="_blank">新人指南</a></li> -->
+            <li><a href="mailto:prado1316@163.com">联系我们</a></li>
+        </ul>
+    </div>
+
+        <!-- <a href="mytt3.html#newdirect" target="_blank">[新人指南]</a>
+        <a href="mailto:prado1316@163.com">联系我们</a></p>
+    <a href="mailto:prado1316@163.com">prado1316@163.com</a>
+
+    <a href="mytt3.html#newdirect">你好</a>
+    <a href="mailto:buptweb2015@126.com">打开邮件</a> -->
+
+    <!-- 首页背景图 -->
+    <div class="photo">
+        <!-- 点击图片可跳转至张家口文旅网页 -->
+        <a href="http:\\xn--6orx5p50cn1i4i.xn--czru2d\"><img src="img/dahaoheshan.jpg" alt="" width="600" /></a>
+       </div>
+
+       <head>
+        <meta charset="UTF-8">
+        <title>登录/注册</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>登录</h1>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="用户名" required>
+                <input type="password" id="password" placeholder="密码" required>
+                <button type="submit">登录</button>
+            </form>
+            <p>没有账号？<a href="register.html">注册</a></p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+       <!-- <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>注册登录）</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <table width="85%" border="1" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" valign="bottom">
+                    <h3>用户注册</h3>
+                </td>
+            </tr>
+        </table>
+        <hr align="center" width="85%" size="5" color="#41E429">
+    
+        <form action="" method="get" enctype="multipart/form-data" name="form1">
+            <table width="85%" border="0" align="center" cellspacing="10" bgcolor="#C9C8E3">
+                <tr>
+                    <td width="101" align="left"><label for="usrname">用户名：</label></td>
+                    <td width="208"><input type="text" name="usrname" id="usrname" value="张三" size="8" maxlength="20"></td>
+                    <td width="102">密码：</td>
+                    <td width="235"><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td align="left">性别：</td>
+                    <td><input name="RadioGroup1" type="radio" id="RadioGroup1_0" value="male" checked>
+                        <label for="RadioGroup1_0">男</label>
+                        <input type="radio" name="RadioGroup1" value="female" id="RadioGroup1_1">
+                        <label for="RadioGroup1_1">女</label></td>
+                    <td>籍贯：</td>
+                    <td><select name="jiguan" size="1" id="jiguan">
+                <option selected>北京</option>
+                <option>上海</option>
+                <option>江苏杭州</option>
+                <option>青岛</option>
+              </select></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">音乐爱好：</td>
+                    <td>
+                        <p>
+                            <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_0" value="popmusic" checked>
+                            <label for="CheckboxGroup1_0">流行音乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="jazz" id="CheckboxGroup1_1">
+                            <label for="CheckboxGroup1_1">爵士乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="tradition" id="CheckboxGroup1_2">
+                            <label for="CheckboxGroup1_2">民族音乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="opera" id="CheckboxGroup1_3">
+                            <label for="CheckboxGroup1_3">歌剧</label>
+                            <br>
+                        </p>
+                    </td>
+                    <td valign="top">上传图片：
+                        <input type="image" name="imageField" id="imageField" src="img/small1.jpg"></td>
+                    <td valign="top"><input type="file" name="fileField" id="fileField"></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">自我简介：</td>
+                    <td colspan="3"><textarea name="textarea" id="textarea" cols="80" rows="5">请输入文本信息</textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><input type="submit" name="button" id="button" value="提交"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" name="button2" id="button2" value="重置"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input
+                            name="button3" type="button" id="button3" value="普通按钮"></td>
+                </tr>
+            </table>
+        </form> -->
+
+
+       <!-- <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>表单（含默认值及label用法）</title>
+        <style type="text/css">
+            .logcs1 {
+                font-family: "华文行楷";
+                font-size: 10px;
+                font-style: normal;
+                background-image: url(img/small1.jpg);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table width="85%" border="1" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" valign="bottom">
+                    <h3>动态网页制作实例：用户注册页面 （Form表单的基本功能演示）</h3>
+                </td>
+            </tr>
+        </table>
+        <hr align="center" width="85%" size="5" color="#41E429">
+    
+        <form action="" method="get" enctype="multipart/form-data" name="form1">
+            <table width="85%" border="0" align="center" cellspacing="10" bgcolor="#C9C8E3">
+                <tr>
+                    <td width="101" align="left"><label for="usrname">用户名：</label></td>
+                    <td width="208"><input type="text" name="usrname" id="usrname" value="张三" size="8" maxlength="20"></td>
+                    <td width="102">密码：</td>
+                    <td width="235"><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td align="left">性别：</td>
+                    <td><input name="RadioGroup1" type="radio" id="RadioGroup1_0" value="male" checked>
+                        <label for="RadioGroup1_0">男</label>
+                        <input type="radio" name="RadioGroup1" value="female" id="RadioGroup1_1">
+                        <label for="RadioGroup1_1">女</label></td>
+                    <td>籍贯：</td>
+                    <td><select name="jiguan" size="1" id="jiguan">
+            <option selected>北京</option>
+            <option>上海</option>
+            <option>江苏杭州</option>
+            <option>青岛</option>
+          </select></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">音乐爱好：</td>
+                    <td>
+                        <p>
+                            <input name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_0" value="popmusic" checked>
+                            <label for="CheckboxGroup1_0">流行音乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="jazz" id="CheckboxGroup1_1">
+                            <label for="CheckboxGroup1_1">爵士乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="tradition" id="CheckboxGroup1_2">
+                            <label for="CheckboxGroup1_2">民族音乐</label>
+                            <br>
+    
+                            <input type="checkbox" name="CheckboxGroup1" value="opera" id="CheckboxGroup1_3">
+                            <label for="CheckboxGroup1_3">歌剧</label>
+                            <br>
+                        </p>
+                    </td>
+                    <td valign="top">上传图片：
+                        <input type="image" name="imageField" id="imageField" src="img/small1.jpg"></td>
+                    <td valign="top"><input type="file" name="fileField" id="fileField"></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">自我简介：</td>
+                    <td colspan="3"><textarea name="textarea" id="textarea" cols="80" rows="5">请输入文本信息</textarea></td>
+                </tr>
+                <tr>
+                    <p>
+                        <td colspan="4" align="center"><input type="submit" name="button" id="button" value="提交"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" name="button2" id="button2" value="重置"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input
+                                name="button3" type="button" id="button3" value="普通按钮"></td>
+                </tr>
+            </table>
+        </form> -->
+    <!-- 页面最下方   -->
+      <div class="foot foot2">
+        <h3>张家口欢迎您！</h3>
+        <h3>这么近，那么美，周末到河北</h3>
+       </div>
+</body>
+
+</html>

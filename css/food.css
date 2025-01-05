@@ -1,0 +1,53 @@
+.food-photo img{
+  width: 450px;
+  height: 300px;
+}
+.food-box{
+  margin: 20px 80px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+}
+.text{
+ padding: 10px 30px;
+}
+/* h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+p{
+  line-height: 40px;
+  text-indent: 2em;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  margin: 10px 0;
+}
